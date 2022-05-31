@@ -16,6 +16,8 @@ components:
     type: dockerimage
     alias: mtb-linux24
     image: 'image-registry.openshift-image-registry.svc:5000/fuchsphi-codeready/modus-linux-24'
+  - type: chePlugin
+    reference: "https://raw.githubusercontent.com/FuchsPhi/MTB_CodeReady_Worksapces/main/plugin.yaml"
 commands:
   - name: getlibs
     actions:

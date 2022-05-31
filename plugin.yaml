@@ -12,5 +12,5 @@ category: Language
 firstPublicationDate: '2020-07-30'
 spec:
   extensions:
-  - "https://gist.github.com/5f4cf76a8bbdb36d76f49804c4918861.git/raw/bracket-pair-colorizer-2-0.2.1_vsixhub.com.vsix"
+  - "https://raw.githubusercontent.com/FuchsPhi/MTB_CodeReady_Worksapces/main/bracket-pair-colorizer-2-0.2.1_vsixhub.com.vsix"
 latestUpdateDate: "2020-07-30"
