@@ -38,4 +38,4 @@ commands:
       - workdir: '${CHE_PROJECTS_ROOT}/psoc6-hello-world'
         type: exec
         command: make clean
-        component: mtb-linux2
+        component: mtb-linux24
