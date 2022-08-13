@@ -16,8 +16,11 @@ components:
     type: dockerimage
     alias: mtb-linux24
     image: 'image-registry.openshift-image-registry.svc:5000/openshift/modus-linux-24'
+  - type: cheEditor
+    reference: >-
+      https://raw.githubusercontent.com/srivshu944/codeready-workspace-customization/master/che-editor.meta.yaml
   - type: chePlugin
-    reference: "https://raw.githubusercontent.com/FuchsPhi/MTB_CodeReady_Worksapces/main/plugin.yaml"
+    reference: "https://raw.githubusercontent.com/FuchsPhi/MTB_CodeReady_Worksapces/main/plugin.yaml"  
 commands:
   - name: getlibs
     actions:
