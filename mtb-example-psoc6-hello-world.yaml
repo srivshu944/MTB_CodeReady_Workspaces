@@ -4,7 +4,7 @@ metadata:
 projects:
   - name: psoc6-hello-world
     source:
-      location: 'https://github.com/Infineon/mtb-example-psoc6-hello-world.git'
+      location: 'https://github.com/srivshu944/mtb-example-psoc6-hello-world-crw.git'
       type: git
       branch: master
 components:
